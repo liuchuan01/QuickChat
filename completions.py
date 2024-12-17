@@ -22,6 +22,11 @@ def stream_response(question, key, model):
 
     response = requests.request("POST", url, headers=headers, data=json.dumps(payload),stream=True)
 
+    if response.status_code != 200:
+        print(f"请求失败，状态码: {response.status_code}")
+        yield str(response.status_code)
+        yield response.text
+        return
     for chunk in response.iter_lines():
         # 解码为字符串，明确指定 UTF-8
         chunk_str = chunk.decode('utf-8', errors='replace')  # 将无法解码的字符替换为特殊字符
@@ -33,6 +38,7 @@ def stream_response(question, key, model):
             try:
                 data = json.loads(chunk_str)
                 if data['choices'][0].get('delta') and data['choices'][0]['delta'].get('content'):
+                    print(data['choices'][0]['delta']['content'])
                     yield data['choices'][0]['delta']['content']
             except json.JSONDecodeError:
                 continue

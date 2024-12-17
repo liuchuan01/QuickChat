@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c5a07a2-c042-497e-8ca8-504807f9fac9" name="Changes" comment="" />
+    <list default="true" id="3c5a07a2-c042-497e-8ca8-504807f9fac9" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/completions.py" beforeDir="false" afterPath="$PROJECT_DIR$/completions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example.png" beforeDir="false" afterPath="$PROJECT_DIR$/example.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.py" beforeDir="false" afterPath="$PROJECT_DIR$/ui.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,9 +25,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2qHZbrMmheKeEFhYYsOlYL2G7qJ" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -35,7 +40,9 @@
     "Python.main.executor": "Run",
     "Python.ui.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
+    "last_opened_file_path": "/Users/liuchuan/CodeEnv/dev2learn/QuickChat",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -44,6 +51,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/" />
+    </key>
+  </component>
   <component name="RunManager" selected="Python.start">
     <configuration name="completions" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="quick_chat" />
@@ -180,6 +192,7 @@
       <option name="presentableId" value="Default" />
       <updated>1734321536712</updated>
       <workItem from="1734321537964" duration="13190000" />
+      <workItem from="1734398370818" duration="4980000" />
     </task>
     <servers />
   </component>
