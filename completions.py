@@ -2,8 +2,9 @@ import aiohttp
 import json
 import requests
 
-def stream_response(question, key, model):
-    url = "https://yunwu.ai/v1/chat/completions"
+def stream_response(question, key, model,url):
+    if url is None or url == "":
+        url = "https://yunwu.ai/v1/chat/completions"
     payload = {
         "model": model,
         "messages": [
