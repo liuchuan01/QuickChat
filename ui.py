@@ -60,7 +60,7 @@ question = st.text_area("问题")
 if st.button("Submit"):
 
     if b3 and not b2 and not b4 and not b1 and not st.session_state.api_key:
-        st.session_state.api_key = 'sk-Q1DSG6RLztA4iWDOAF4XX1utdG8ElfzqnGZAmK9kmOOyoUVk'
+        st.session_state.api_key = 'sk********oUVk'
 
     if not st.session_state.api_key:
         st.error("Please enter your API key.")
